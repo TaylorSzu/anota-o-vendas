@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vendas Dashboard</title>
+</head>
+<body>
+    <div class="status">
+        <h1 class="title">Status</h1>
+        <div style="background: #ff7700;" class="option">
+            <h1>Pendentes</h1>
+            <h2 id="pendentes">...</h2>
+        </div>
+        <div style="background: #02902f;" class="option">
+            <h1>Clientes</h1>
+            <h2 id="clientes">...</h2>
+        </div>
+        <div style="background: #0702ff;" class="option">
+            <h1>Vendas</h1>
+            <h2 id="vendas">...</h2>
+        </div>
+        <div style="background: #fb02ff;" class="option">
+            <h1>Entregues</h1>
+            <h2 id="entregues">...</h2>
+        </div>
+    </div>
+    <div class="pendentes">
+        <div class="anuncio">
+            <h1 class="title">Vendas Pendentes</h1>
+            <button class="add" onclick="opn()">Adicionar</button>
+        </div>
+        <div id='vendas_pendentes' class="vendas">
+
+        </div>
+    </div>
+
+    <div id="background" class="modal-background">
+    </div>
+
+    <div id="modal" class="modal">
+        <h1 class="title">Adicionar Venda</h1>
+        <form>
+            <div class="inputs">
+                <label>Nome do usuário:</label>
+                <input type="text" required="true" placeholder="Coloque o nome do discord do cliente" id="client">
+            </div>
+            <div class="inputs">
+                <label>Id do usuário:</label>
+                <input type="text" required="true" placeholder="Coloque o id do discord do cliente" id="id">
+            </div>
+            <div class="inputs">
+                <label>Nome:</label>
+                <input type="text" required="true" placeholder="Coloque o nome da venda" id="name">
+            </div>
+            <div class="inputs">
+                <label>Valor:</label>
+                <input type="number" required="true" placeholder="Coloque o valor da venda" id="value">
+            </div>
+
+            <div class="submit">
+                <input id="submit" type="submit">
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+
+<script src="./js/funcionRemove.js"></script>
+<script src="./js/add.js"></script>
+<script src="./js/render.js"></script>
+</html>

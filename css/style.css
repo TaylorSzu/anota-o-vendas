@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #122037;
+}
+
+.status {
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 80%;
+    height: 45vh;
+}
+
+.status .title {
+    color: #fff;
+    font-size: 4vh;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+.option {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5.5vh 0 0;
+    width: 20%;
+    height: 25vh;
+    border-radius: 8px;
+}
+
+.option h1 {
+    color: #fff;
+    font-size: 3vh;
+    margin: 0 5vh;
+    text-transform: uppercase;
+    padding-top: 5vh; 
+}
+
+.option h2 {
+    color: #fff;
+    font-size: 6vh;
+    margin: 0 5vh;
+    text-transform: uppercase;
+    padding-top: 3vh; 
+}
+
+.pendentes {
+    background: #182b49;
+    width: 80%;
+    border-radius: 8px;
+    min-height: 43vh;
+    margin: 0 auto;
+    padding-bottom: 1vh;
+    margin-bottom: 1vh
+}
+
+.pendentes .anuncio {
+    width: 100%;
+    height: 15vh;
+}
+
+.pendentes .title {
+    float: left;
+    padding: 5vh;
+    color: #fff;
+    font-size: 5vh;
+}
+
+.pendentes .add {
+    float: right;
+    margin: 5vh;
+    width: 10%;
+    height: 5vh;
+    background: #0a8b14;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.pendentes .add:hover {
+    opacity: 0.7;
+}
+
+.pendentes .vendas {
+    margin-top: 5vh;
+}
+
+.pendentes .venda {
+    width: 95%;
+    height: 10vh;
+    margin: 2vh auto;
+    background: #122037;
+    border-radius: 10px;
+}
+
+.pendentes .venda .name {
+    color: #fff;
+    font-size: 4vh;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+
+.pendentes .venda .id {
+    color: #fff;
+    font-size: 2vh;
+    font-weight: 500;
+    opacity: 0.8;
+    display: inline-block;
+    margin-right: 10vh;
+}
+
+.pendentes .venda .product {
+    color: #fff;
+    text-align: left;
+    font-size: 3vh;
+    font-weight: 500;
+    margin: 0 5vh;
+    display: inline-block;
+}
+
+.pendentes .venda .value {
+    color: #fff;
+    text-align: left;
+    font-size: 4vh;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0 5vh;
+    color: #0a8b14;
+}
+
+.pendentes button {
+    width: 8%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background: #0a8b14;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    float: right;
+    margin: 2vh;
+}
+
+.pendentes button:hover {
+    opacity: 0.7;
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #122037;
+    opacity: 0.6;
+    z-index: 1;
+    top: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 60%;
+    height: 80vh;
+    background: #2b4b7e;
+    top: 10vh;
+    left: 20%;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.modal .title {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding: 5vh 0 ;
+}
+
+.modal label {
+    color: #fff;
+    display: block;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.inputs input {
+    margin: 0 auto;
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh;
+    text-align: center;
+}
+
+.inputs {
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    width: 35%;
+    height: 10vh;
+}
+
+.modal .submit {
+    margin: 0 auto;
+    width: 20%;
+    height: 5vh;
+}
+
+.modal .submit input {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    background: #0a8b14;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6;
+}
+
+.modal .submit input:hover {
+    opacity: 0.7;
+}
